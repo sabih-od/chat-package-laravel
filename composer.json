@@ -1,0 +1,26 @@
+{
+    "name": "sabih-od/chat-package-laravel",
+    "description": "Simple Chat package for laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sheikh Sabih",
+            "email": "sheikh.muhammad@olivedigital.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SabihOD\\ChatPackageLaravel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SabihOD\\ChatPackageLaravel\\Providers\\PackageServiceProvider"
+            ]
+        }
+    }
+}
